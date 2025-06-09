@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/meethatkar/testing-serverless-funcs#readme",
   "devDependencies": {
+    "devenv": "^1.0.1",
     "node-fetch": "^3.3.2"
   }
 }
