@@ -1,5 +1,4 @@
-const url = 'https://pokeapi.co/api/v2/pokedex/';
-// const url = process.env.API_URL;
+const url = process.env.API_URL;
 
 exports.handler = async function(event, context){
     const eventBody = JSON.parse(event.body);
